@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+hr{
+    background-color: #2c3e50;
+}
+
+body{
+    background-color: #151719;
+}
+
+/* header css coding starting here */
+/* navbar css coding starting here */
+.navbar{
+    z-index: 1;
+}
+.navbar .nav-item .nav-link{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #95a5a6;
+}
+.navbar .navbar-collapse button{
+    background-color: #6163FF;
+    padding: 0.4rem 1.7rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: #E7E8EE;
+}
+/* navbar css coding end here */
+
+.mid h1{
+    color: #ECEDED;
+    font-weight: 900;
+}
+.mid h1 span{
+    color: #5658ED;
+}
+.mid p{
+    width: 60%;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #97A4AE;
+    word-spacing: .1rem;
+}
+.mid .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.mid .row button{
+    background-color: #6163FF;
+    padding: 0.7rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: #E7E8EE;
+    margin: 0.3rem 0.6rem;
+}
+.mid .row button:nth-child(2){
+    background-color: #25282C;
+    color: #E7E8EE;
+}
+.mid .text2{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+/* header css coding end here */
+
+/* features section css coding starting here */
+.features .row .one img{
+    background-color: #5658ED;
+    color: #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.features .row .one h3{
+    color: #fff;
+    font-weight: 700;
+}
+.features .row .one p{
+    color: #97A4AE;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+/* features section css coding end here */
+
+/* about section css coding starting here */
+.about h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+.about p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #97A4AE;
+    word-spacing: .1rem;
+}
+
+.about .row .content h6{
+    color: #5658DD;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.about .row .content h2{
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #E7E8EE;
+}
+/* about section css coding end here */
+
+/* feedback section css coding starting here */
+.feedback h1{
+    font-weight: 900;
+    font-size: 3rem;
+    color: #E7E8EE;
+}
+.feedback p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #97A4AE;
+    word-spacing: .1rem;
+}
+.feedback .row .one{
+    background-color: #25282C;
+    padding: 1rem 1.7rem;
+    color: #fff;
+}
+.feedback .row .one i{
+    color: #6163FF;
+    font-size: 2rem;
+}
+.feedback .row .one p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #97A4AE;
+}
+.feedback .row .one h4{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #ECEDED;
+}
+.feedback .row .one h4 span{
+    color: #1CB58A;
+}
+/* feedback section css coding end here */
+
+/* sub section css coding starting here */
+.sub{
+    background-color: #5658DD;
+    padding: 4rem 3.3rem;
+}
+.sub .row h2{
+    font-weight: 900;
+    font-size: 2.2rem;
+    color: #ececec;
+}
+.sub .row input{
+    width: 30%;
+    border-style: none;
+    outline: none;
+    padding: 0.9rem 1rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+/* sub section css coding end here */
+
+/* footer section css coding starting here */
+footer{
+    background-color: #25282C;
+}
+footer .row ul li a{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #1CB58A;
+}
+footer .copyright{
+    background-color: #151719;
+}
+footer .copyright p{
+    color: #E7E8EE;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+footer .copyright p a{
+    font-weight: 700;
+    color: #1CB58A;
+}
+/* footer section css coding end here */
